@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+/* reset css */
+html{
+    font-size: 70%;
+    scroll-behavior: smooth;
+    /*background: #fff url(https://img.freepik.com/vecteurs-libre/fond-abstrait-blanc_23-2148806276.jpg?size=626&ext=jpg)no-repeat fixed center center / cover;*/
+    background-color: #fff;
+    }
+    body{
+        font: 1.6rem 'Arimo', sans-serif;
+        margin: 0;
+        padding: 0;
+        
+    }
+    h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    a{
+        color: #222;
+        text-decoration: none;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    :root{
+        --color-default: #1e201f;
+        --color-primary: #2b7dc0;
+        --color-warning: #e23131;
+        --color-success: #4db32e;
+        --color-border: #b3b5b6;
+    }
+    /* thème */
+ 
+/* Partie header */
+header{
+    display: flex;
+    margin: 1rem 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+header p{
+  margin-right: 1rem;
+  color: #787878;
+  cursor:pointer;
+  
+}
+header p:hover{
+  color: #000;
+}
+header .right{
+  display: flex;
+  margin: 1rem 2rem;
+  flex-wrap:wrap;
+}
+header img{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+}
+
+/* Fin de la partie header */
+
+/* Partie principale */
+section{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 10rem;
+}
+img{
+    width: 40rem;
+    cursor: pointer;
+}
+section form{
+  display: block;
+  flex-direction: column;
+  width: 40%;
+}
+section form input{
+    margin-top: -2rem;
+    padding:1.5rem;
+    border-radius: 5rem;
+    border:0.1rem solid #d1d1d1;
+    outline:none;
+    width: 100%;
+}
+button a{
+    color: #fff;
+}
+header div  button{
+    background-color: rgb(43, 119, 235);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    width: 13rem;
+    border: none;
+    top: 4rem;
+    align-items: center;
+    cursor: pointer;
+    font-size: large;
+}
+form{
+    margin-top: -2rem;
+}
+header div button:hover{
+    background-color: rgb(78, 134, 218);
+}
+section .buttons{
+  margin-top: 4rem;
+}
+section .buttons button{
+  padding: 1rem 2rem;
+  background-color: #f0f0f0;
+  border:none; 
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  cursor:pointer;
+  color: #4d4d4d;
+  outline:none;
+}
+/* Fin de la partie principale */
+
+/* Pied de page */
+footer{
+   
+    color: #787878;
+    margin-top: 25rem;
+    background-color: #ecedee;
+    height: 10rem;
+    
+}
+footer p{
+    padding: 1rem;
+}
+footer p:nth-child(3){
+    text-align: center;
+}
+hr{
+    color: rgba(231, 230, 230, 0.534);
+}
